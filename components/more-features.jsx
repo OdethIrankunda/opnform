@@ -139,6 +139,7 @@ export default function MoreFeatures() {
             </a>
           </div>
         </div>
+        
       </div>
     </div>
   )

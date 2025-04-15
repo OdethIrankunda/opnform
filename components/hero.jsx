@@ -2,6 +2,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowOutward } from "react-icons/md";
 import React from 'react'
 import { IoIosCheckmark } from "react-icons/io";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -15,8 +16,8 @@ export default function Hero() {
         </a>
         <h1 className="md:text-5xl text-3xl font-semibold ">Build <span className="text-blue-600 "> beautiful forms</span> in seconds</h1>
         <p className="text-gray-500 md:text-2xl">Create beautiful forms and share them anywhere. It's super fast, you don't need to know how to code. Get started <span className="font-bold">for free</span>!</p>
-        <a href="/templates " className="text-white px-4 py-2 rounded-sm bg-blue-600 flex gap-2 font-semibold">Create a form for FREE <MdArrowOutward className="text-2xl"/>
-        </a>
+        <Link href="/templates " className="text-white px-4 py-2 rounded-sm bg-blue-600 flex gap-2 font-semibold">Create a form for FREE <MdArrowOutward className="text-2xl"/>
+        </Link>
         <div className="flex items-center gap-1">
         <IoIosCheckmark  className="text-3xl text-blue-500"/>
         <p className="text-gray-500">Unlimited Forms</p>
